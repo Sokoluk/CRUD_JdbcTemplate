@@ -30,7 +30,7 @@ public class Config extends AbstractAnnotationConfigDispatcherServletInitializer
     public void onStartup(ServletContext aServletContext) throws ServletException {
         super.onStartup(aServletContext);
         registerCharacterEncodingFilter(aServletContext);
-        registerHiddenFieldFilter(aServletContext);
+        registerHiddenFieldFilter(aServletContext);// Привет
     }
 
     private void registerHiddenFieldFilter(ServletContext aContext) {
